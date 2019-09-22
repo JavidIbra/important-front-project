@@ -1,0 +1,20 @@
+body {
+    font-family: "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: gray;
+}
+
+#img {
+    margin-top: 20px;
+}
+
+.list>li {
+    display: inline-block;
+    margin-top: 20px;
+    left: 50%;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;    
+    list-style: none;
+    text-transform: uppercase;
+}
