@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" "Cinzel";
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji" "Cinzel";
   color: gray;
   height: 2000px;
 }
@@ -18,14 +19,16 @@ body {
   text-transform: uppercase;
   font-family: "Cinzel";
 }
-#texts p{
+#texts p {
   text-align: center;
 }
-#color{
-    color: #930077 !important;
-    
+#color {
+  color: #930077 !important;
 }
 
+.container {
+  margin-top: 30px;
+}
 
 .list > li {
   display: inline-block;
@@ -41,4 +44,37 @@ body {
 .list {
   display: flex;
   justify-content: center;
+}
+
+.flexbtl{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top:  94px;
+}
+
+.bootles {
+  background-color: rgb(204, 180, 180);
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 30px; /* Gutter */
+  align-items: center;
+}
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.bootles:hover {
+}
+
+.bootles::after{
+  content: "";
+  display: block;
+  background: #12406e;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
 }
