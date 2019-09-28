@@ -1,17 +1,18 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?10si43');
-  src:  url('/fonts/icomoon.eot?10si43#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?10si43') format('truetype'),
-    url('/fonts/icomoon.woff?10si43') format('woff'),
-    url('/fonts/icomoon.svg?10si43#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("/fonts/icomoon.eot?10si43");
+  src: url("/fonts/icomoon.eot?10si43#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?10si43") format("truetype"),
+    url("/fonts/icomoon.woff?10si43") format("woff"),
+    url("/fonts/icomoon.svg?10si43#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,30 +25,40 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
-  font-family: "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji" "Cinzel";
+  font-family: "Cinzel" "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
   /* color: gray; */
   height: 4000px;
+}
+.huge-div {
+  background-color: #f8f9fa !important;
+}
+.main-section {
+  margin-top: 130px;
+}
+
+h5 {
+  margin-top: 10px;
 }
 
 #img {
   margin-top: 20px;
 }
 
-#texts {
-  margin-top: 138px;
+.texts {
+  margin-top: 200px !important;
+  margin-bottom: 100px !important;
 }
-#texts h2 {
+.texts h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Cinzel";
 }
-#texts p {
+.texts p {
   text-align: center;
 }
 #color {
@@ -63,12 +74,19 @@ body {
   align-items: center;
   margin-top: 30px;
   padding-left: 27px;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 400;
   cursor: pointer;
   list-style: none;
+  /* text-decoration: none !important; */
   text-transform: uppercase;
 }
+
+.list > li > a {
+  text-decoration: none !important;
+  color: gray;
+}
+
 .list {
   display: flex;
   justify-content: center;
@@ -84,31 +102,34 @@ body {
   position: relative;
   box-sizing: border-box;
   display: inline-block;
+  text-align: center;
+  margin-top: 50px;
   padding-left: 30px;
   align-items: center;
 }
-.bootles > p{
+.bootles > p {
   /* position: absolute; */
-margin-top: 30px;
+  margin-top: 30px;
 }
-
 
 .bootles:hover .hoverDiv {
   width: 330px;
   height: 200px;
-  background-color: aqua;
+  background-color: #fff;
   opacity: 1;
-    visibility: visible;
+  visibility: visible;
 }
-.hoverDiv{
+.hoverDiv {
   position: absolute;
   width: 330px;
   height: 200px;
-  background-color: aqua;
+  /* background-color: #fff; */
   opacity: 0;
   visibility: hidden;
-  top: 50px;
-  transform: translate(-50%);
+  text-align: center !important;
+  padding-bottom: 1.5rem !important;
+  top: 190px;
+  transform: translate(-1%);
 }
 
 .image-fluid {
@@ -137,9 +158,8 @@ margin-top: 30px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
 }
-.bcg h2{
+.bcg h2 {
   font-size: 5rem;
   font-weight: 300;
   color: #fff;
@@ -152,14 +172,57 @@ margin-top: 30px;
   color: #fff;
   font-size: 1.5rem;
 }
-.girl img{
+.girl img {
+  display: block;
   width: 80px !important;
   border: 4px solid #930077;
   margin-bottom: 30px;
   border-radius: 50%;
+  /* vertical-align: middle; */
   margin-left: auto !important;
   margin-right: auto !important;
 }
+.girl {
+  font-size: 20px;
+  font-family: "Cinzel";
+  text-align: center;
+  text-transform: none !important;
+}
+.small {
+  font-size: 80%;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #930077 !important;
+  font-family: "Cinzel";
+}
+.posts {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: gray;
+  font-family:"Cinzel" ;
+}
+.posts > h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(92, 89, 89);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.d-block{
+  display: block!important;
+}
+.post-meta{
+  font-size: .8rem;
+}
+.d-block > a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .lorem{
+  display: block;
+  width: 30%;
+} */
 
 /* .bcg ::before {
   content: "";
