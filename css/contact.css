@@ -1,38 +1,30 @@
 body {
     font-family: "Cinzel" "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* color: gray; */
-    height: 2700px;
+    height: 2000px;
+}
+
+#fixed {
+    width: 100%;
+    background-color: #fff;
+}
+
+.fixed {
+    position: fixed;
+}
+
+label {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .huge-div {
     background-color: #f8f9fa !important;
-    width: 100%;
-    padding: 30px;
-    margin-top: 100px;
-}
-
-.huge-div h2 {
-    margin-bottom: 60px;
-    text-transform: uppercase;
-    font-family: "Cinzel"!important;
-}
-
-.about {
-    margin-bottom: 60px;
-}
-
-.about h2 {
-    margin-bottom: 60px;
-    text-transform: uppercase;
-    font-family: "Cinzel"!important;
 }
 
 .main-section {
     margin-top: 130px;
-}
-
-.partOf {
-    margin: 70px 0 70px 0;
 }
 
 h5 {
@@ -44,8 +36,8 @@ h5 {
 }
 
 .texts {
-    margin-top: 200px !important;
-    margin-bottom: 100px !important;
+    margin-top: 60px !important;
+    margin-bottom: 50px !important;
 }
 
 .texts h2 {
@@ -68,11 +60,16 @@ h5 {
     margin-top: 30px;
 }
 
+.list {
+    display: flex;
+    justify-content: center;
+}
+
 .list>li {
-    display: inline-block;
+    display: flex;
     align-items: center;
-    margin-top: 5px;
-    padding-left: 27px;
+    margin-top: 30px;
+    padding-left: 40px;
     font-size: 0.8rem;
     font-weight: 400;
     cursor: pointer;
@@ -86,15 +83,9 @@ h5 {
     color: gray;
 }
 
-.list {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -10px;
-}
-
-/* #coruselHero {
+#coruselHero {
     position: relative;
-} */
+}
 
 /* .center h2{
     font-size: 5rem;
@@ -141,29 +132,21 @@ h5 {
 
 
 
+
+
 .image-fluid {
     max-width: 100%;
     height: auto;
 }
 
-.bootles::after {
-    content: "";
-    display: block;
-    background: #f3f4f5;
-    top: 20%;
-    bottom: 0;
-    left: 0;
-    right: 0px;
-    position: absolute;
-    z-index: -1;
-}
+
 
 .bcg {
     position: relative;
     background-image: url("/img/img_2.jpg");
     width: 100%;
-    height: 400px;
-    margin-top: 1px;
+    height: 500px;
+    /* margin-top: 1px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -193,7 +176,7 @@ h5 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.342);
+    background: rgba(0, 0, 0, 0.514);
 }
 
 .girl img {
@@ -248,6 +231,48 @@ h5 {
 .d-block>a {
     color: black;
     text-decoration: none;
+}
+
+.title {
+    color: #000;
+    margin-top: 100px;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    font-family: "Cinzel";
+}
+
+.contact {
+    background-color: #f8f9fa !important;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control {
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #6d0058;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn :hover {
+    color: #fff;
+    background-color: #6d0058;
+    border-color: #60004e;
 }
 
 .footer {
@@ -309,17 +334,3 @@ h5 {
     background-size: cover;
     background-position: center;
   } */
-
-.owl-nav {
-    margin: 10px 0 0 0;
-    display: flex;
-    justify-content: center;
-}
-
-span[class^="icon-arrow"] {
-    margin-right: 10px;
-    background: gray;
-    display: flex;
-    width: 20px;
-    height: 4px;
-}

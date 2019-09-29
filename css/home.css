@@ -150,6 +150,36 @@ h5 {
   transform: translate(-50%);
 }
 
+.hoverDiv>span{
+    color: #8d1577;
+}
+.stars{
+  position: relative;
+}
+.stars > span> i{
+color: gold;
+}
+.cart{
+  position: absolute;
+ text-align: center !important;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%);
+  width: 220px;
+  height: 40px;
+  background-color: #8d1577;
+}
+.cart > a{
+  text-decoration: none;
+  color: #efefef;
+  padding-top: 20px;
+}
+.cart > a > span > i {
+ color: #efefef;
+ margin-right: 20px;
+
+}
+
 .image-fluid {
   max-width: 100%;
   height: auto;
