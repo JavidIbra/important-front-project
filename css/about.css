@@ -10,8 +10,18 @@ body {
     padding: 30px;
     margin-top: 100px;
 }
+.huge-div h2{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-family: "Cinzel"!important;
+}
 .about{
     margin-bottom: 60px;
+}
+.about h2{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-family: "Cinzel"!important;
 }
 
 .main-section {
