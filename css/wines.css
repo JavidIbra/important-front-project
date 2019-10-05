@@ -7,9 +7,13 @@
       width: 100%;
       background-color: #fff;
   }
-  .fixed{
-      position: fixed;
-  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
   
   .huge-div {
     background-color: #f8f9fa !important;

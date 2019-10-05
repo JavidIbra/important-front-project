@@ -2,7 +2,45 @@ body {
     font-family: "Cinzel" "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* color: gray; */
     height: 2700px;
+    margin 0;
+    padding 0;
+
 }
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#truck > i {
+    position: absolute;
+    left: -64px;
+    top: -1px;
+    font-size: 50px;
+    display: inline-block;
+    color: #930077!important;
+}
+
+#support{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #930077;
+}
+
+#support{
+    align-content: center;
+    position: absolute;
+    left: -64px;
+    top: -1px;
+    font-size: 50px;
+    display: inline-block;
+    color: #fff;
+}
+
 
 .huge-div {
     background-color: #f8f9fa !important;
