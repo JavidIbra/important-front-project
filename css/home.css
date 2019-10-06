@@ -146,7 +146,7 @@ h5 {
 .hoverDiv {
   position: absolute;
   width: 330px;
-  height: 150px;
+  height: 174px;
   /* background-color: #fff; */
   opacity: 0;
   /* visibility: hidden; */
@@ -161,7 +161,11 @@ h5 {
     color: #8d1577;
 }
 .stars{
-  position: relative;
+  position: absolute;
+  /* padding: 10px; */
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%) 
 }
 .stars > span> i{
 color: gold;
@@ -368,6 +372,9 @@ span[class^="icon-arrow"] {
   display: flex;
   width: 20px;
   height: 4px;
+}
+#heart{
+  color: red;
 }
 /* 
 button[class^="owl-"]:active {
